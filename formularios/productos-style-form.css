@@ -1,0 +1,70 @@
+/*Pagina de estilo pertenece a: formulario-productos.html*/
+/*donde esta el formulario de agregar nuevo producto*/
+
+#seccion_form-producto {
+  background-color: rgba(240, 248, 255, 0.752);
+}
+
+#contenedor_form__producto {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+  margin: auto;
+}
+
+#form__producto {
+  background: var(--color-formulario);
+  display: flex;
+  flex-direction: column;
+  border-radius: 4%;
+  margin: auto;
+}
+
+.controles_productos,
+.descripcion__producto__textarea {
+  display: block;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  margin: auto;
+  outline: none;
+  padding: 10px 10px;
+  resize: none;
+  width: 80%;
+}
+
+#caja_bton_producto {
+  margin: auto;
+}
+
+/*telefonos*/
+@media only screen and (max-width: 600px) {
+  #contenedor_form__producto {
+    width: 100%;
+  }
+
+  #form__producto {
+    width: 90%;
+  }
+}
+
+/*landscape tablets, 768px and up */
+@media only screen and (min-width: 600px) {
+  #contenedor_form__producto {
+    width: 100%;
+  }
+
+  #form__producto {
+    width: 90%;
+  }
+}
+
+/* Extra large laptops and desktops, 1200px and up */
+@media only screen and (min-width: 992px) {
+  #contenedor_form__producto {
+    width: 90%;
+  }
+
+  #form__producto {
+    width: 70%;
+  }
+}

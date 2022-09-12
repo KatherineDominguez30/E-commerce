@@ -1,0 +1,170 @@
+/*hoja de estilo para la seccion hable con nosotros, y corresponde a patron--index.html*/
+
+.contenedor_menu {
+  background: var(--color-centro);
+  display: flex;
+}
+
+/*imagen y navegadores*/
+.img-nav {
+  padding-top: 1rem;
+}
+
+.menu_navegador {
+  flex-direction: row;
+}
+
+/*links*/
+a {
+  color: black;
+  font-size: 20.5px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+/*formulario*/
+.formcontato__form {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 228, 196, 0.9);
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 4%;
+}
+
+.formcontato__title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1.25rem;
+  padding-top: 1rem;
+}
+
+label {
+  display: block;
+  font-size: 1.2rem;
+  margin: 0.5rem;
+  margin-left: 10%;
+}
+
+.formcontato__input,
+.formcontato__textarea {
+  display: block;
+  border: none;
+  border-radius: 5px;
+  margin: auto;
+  outline: none;
+  padding: 7px 10px;
+  resize: none;
+  width: 80%;
+}
+
+.caja_bton {
+  display: flex;
+}
+
+.formcontato__boton {
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 8%;
+  margin-top: 1.2rem;
+  margin-bottom: 1rem;
+  padding: 12px 0px;
+  transition: 1s all;
+  width: 10rem;
+}
+
+.formcontato__boton:hover {
+  background: rgba(219, 60, 222, 0.396);
+  font-size: 18px;
+  transform: scale(1.1);
+}
+
+/*telefonos*/
+@media only screen and (max-width: 600px) {
+
+  /*donde va todo el contenido*/
+  .contenedor_menu {
+    display: block;
+    width: 100%;
+  }
+
+  /*links*/
+  .menu_navegador {
+    display: block;
+  }
+
+  /*formulario*/
+  .formcontato__form {
+    width: 100%;
+  }
+
+  .caja_bton {
+    margin: auto;
+  }
+}
+
+/*landscape tablets, 768px and up */
+@media only screen and (min-width: 600px) {
+  .ima-pequeña {
+    padding-left: 2rem;
+  }
+
+  /*links*/
+  .menu_navegador {
+    display: block;
+  }
+
+  /*formulario*/
+  .formcontato__form {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 100%;
+  }
+
+  label {
+    font-size: 1.8rem;
+  }
+
+  .caja_bton {
+    margin: auto;
+  }
+}
+
+/* Extra large laptops and desktops, 1200px and up */
+@media only screen and (min-width: 992px) {
+
+  /*links*/
+  .menu_navegador {
+    display: flex;
+    width: 45%;
+  }
+
+  .menu__list {
+    text-align: center;
+    padding-top: 1.5rem;
+    width: 130%;
+  }
+
+  /*donde esta los link-li*/
+  .menu__list__item {
+    display: block;
+    line-height: 3rem;
+    text-align: center;
+    width: 100%;
+  }
+
+  .formcontato__form {
+    width: 50%;
+  }
+
+  .caja_bton {
+    margin: auto;
+  }
+}

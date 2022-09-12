@@ -1,0 +1,53 @@
+/*Pagina de estilo pertenece a: index-productos.html*/
+/*donde estan todos los productos*/
+
+/*donde esta el logo y el boton*/
+#productos-ventas {
+  display: flex;
+}
+
+/*clase del boton*/
+.bton_productos {
+  outline: none;
+  padding-top: 1.5rem;
+}
+
+/*diseno del boton de agregar producto*/
+.boton-agregar-producto {
+  cursor: pointer;
+  background-color: rgba(135, 202, 227, 0.781);
+  border: none;
+  border-radius: 5px;
+  font-size: 1.4rem;
+  height: 2.5rem;
+  width: 12rem;
+  margin-left: 52rem;
+  margin-right: 1%;
+}
+
+.boton-agregar-producto:hover {
+  background: rgba(35, 94, 146, 0.579);
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  transform: scale(1.1);
+}
+
+/*telefonos*/
+@media only screen and (max-width: 600px) {
+#productos-ventas {
+    display: block;
+  }
+/*diseno del boton de agregar producto*/
+.boton-agregar-producto {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  margin-left: 0.9rem;
+  width: 10rem;
+}
+
+.boton-agregar-producto:hover {
+  font-size: 16px;
+  font-weight: 500;
+}
+}

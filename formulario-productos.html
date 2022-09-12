@@ -1,0 +1,115 @@
+<!-- su hoja de estilo esta dentro de la carpeta formulario y se llama: productos-style.css.css -->
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/recetear navegadores/normalize.css">
+  <link rel="stylesheet" href="css/recetear navegadores/reset.css">
+  <link rel="stylesheet" href="css/index-style.css">
+  <link rel="stylesheet" href="formularios/form-contactos.css">
+  <link rel="stylesheet" href="formularios/login-form.css">
+  <link rel="stylesheet" href="formularios/productos-style-form.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <title>DVET</title>
+  <link rel="icon" type="icon/png" href="imagenes/logo-principal.ico">
+</head>
+
+<body>
+  <!-- Sección del Menú  -->
+  <section class="menu">
+    <header class="menu__header">
+      <div class="ima-pequeña">
+        <a href="index-principal.html"><img class="ima" src="imagenes/logo-principal.png"
+            alt="Imagen del Logo 'DVET' "></a>
+      </div>
+    </header>
+    <div class="buscar">
+      <input type="text" class="buscar_texto" placeholder="¿Qué deseas buscar?" required><button class="boton"><img
+          id="img-buscar" src="imagenes/buscar.png" alt="Imagen de buscar"></button>
+      <span class="bton_login"><a href="formulario-login.html" rel="noopener noreferrer"><button
+            class="boton-login-diseno">Login</button></a></span>
+    </div>
+  </section>
+  <main>
+
+    <!-- Sección formulario producto-->
+    <section id="seccion_form-producto">
+      <div id="contenedor_form__producto">
+        <form id="form__producto" name="producto">
+          <h3 class="formcontato__title">Agregar nuevo producto</h3>
+
+          <label for="urlproducto">URL de imagen</label>
+          <input class="controles_productos" type="url" name="url" placeholder="URL de imagen" required>
+
+          <label for="categoriaproducto">Categoria</label>
+          <input class="controles_productos" type="text" name="categoria" placeholder="Categoria del producto" required>
+
+          <label for="nombreproducto">Nombre del producto</label>
+          <input class="controles_productos" type="text" name="nombre" placeholder="Nombre del producto" required>
+
+          <label for="precioproducto">Precio del producto</label>
+          <input class="controles_productos" type="number" name="precio" placeholder="Precio del producto" required>
+
+          <label for="descipcionproducto">Descripción del producto</label>
+          <textarea class="descripcion__producto__textarea" rows="5" cols="40" id="des_producto" name="producto"
+            placeholder="Describa el producto" required></textarea>
+
+          <div id="caja_bton_producto">
+            <a href="#" alt="" Target="_blank" rel="noopener noreferrer"><button type="submit" value="Agregar producto"
+                class="formcontato__boton">Agregar producto</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Sección del formulario/ item/ logo-->
+    <section class="contenedor_menu">
+      <div class="menu_navegador">
+        <div class="img-nav">
+          <img class="ima-pequeña" src="imagenes/logo-principal.png" alt="Imagen del Logo 'DVET' ">
+        </div>
+        <nav>
+          <ul class="menu__list">
+            <li class="menu__list__item"><a href="#">Quines somos</a></li>
+            <li class="menu__list__item"><a href="#">Politica de privacidad</a></li>
+            <li class="menu__list__item"><a href="#">Programa de fidelidad</a></li>
+            <li class="menu__list__item"><a href="#">Nuestras tiendas</a></li>
+            <li class="menu__list__item"><a href="#">Quiero ser franquiciado</a></li>
+            <li class="menu__list__item"><a href="#">Anúncie aquí</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <form class="formcontato__form" name="form">
+        <h3 class="formcontato__title">Hable con nosotros</h3>
+
+        <label for="nombreapellido">Nombre</label>
+        <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre" autocomplete required>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"
+          required></textarea>
+
+        <div class="caja_bton">
+          <a href="#" alt="" Target="_blank" rel="noopener noreferrer"><button type="submit" value="Enviar mensaje"
+              class="formcontato__boton">Enviar mensaje</button>
+        </div>
+      </form>
+      </div>
+      </div>
+    </section>
+
+  </main>
+  <!-- Sección de Footer -->
+  <section class="footer">
+    <div class="footer__rodape">
+      <p>© 2022 Desarrollado por Katherine Domínguez. </p>
+      <p>Todos los derechos reservados.</p>
+    </div>
+  </section>
+</body>
+
+</html>

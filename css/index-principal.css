@@ -1,0 +1,154 @@
+/*Pagina de estilo pertenece a: index-principal.html*/
+/*donde esta el banner, los servicios y productos*/
+
+#banner {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.banner_img {
+  height: 60vh;
+}
+
+.bton_oferta {
+  cursor: pointer;
+  background-color: rgba(237, 218, 109, 0.878);
+  font-weight: bold;
+  height: 2.5rem;
+  width: 11rem;
+}
+
+.bton_oferta:hover {
+  background-color: rgba(16, 138, 182, 0.51);
+  font-size: 21px;
+  transform: scale(1.1);
+  width: 12rem;
+}
+
+/*telefonos*/
+@media only screen and (max-width: 600px) {
+  #banner {
+    flex-direction: column;
+    height: 75vh;
+  }
+
+  .banner_principal {
+    height: 40vh;
+  }
+
+  .banner_img {
+    height: 40vh;
+  }
+
+  .oferta_info {
+    width: 100%;
+  }
+
+  .oferta_banner {
+    font-size: 2rem;
+    margin-bottom: 3%;
+    padding-left: 4%;
+    padding-top: 4%;
+    padding-right: 4%;
+  }
+
+  .oferta_producto {
+    font-size: 1.5rem;
+    margin-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 6%;
+  }
+
+  .bton_oferta {
+    font-size: 1.1rem;
+    height: 2.5rem;
+    margin-left: 5%;
+    width: 9rem;
+  }
+
+  .bton_oferta:hover {
+    font-size: 16px;
+    width: 9rem;
+  }
+}
+
+/*landscape tablets, 768px and up */
+@media only screen and (min-width: 600px) {
+  #banner {
+    height: 40vh;
+  }
+
+  .banner_principal {
+    height: 40vh;
+  }
+
+  .banner_img {
+    height: 40vh;
+  }
+
+  .oferta_banner {
+    font-size: 1.8rem;
+    margin-bottom: 3%;
+    padding-left: 4%;
+    padding-top: 5%;
+    padding-right: 4%;
+  }
+
+  .oferta_producto {
+    font-size: 1.5rem;
+    margin-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 6%;
+  }
+
+  .bton_oferta {
+    font-size: 1.1rem;
+    height: 2.5rem;
+    margin-left: 5%;
+  }
+
+  .bton_oferta:hover {
+    font-size: 16px;
+    width: 10rem;
+  }
+}
+
+/* Extra large laptops and desktops, 1200px and up */
+@media only screen and (min-width: 992px) {
+  #banner {
+    height: 60vh;
+  }
+
+  .banner_principal {
+    height: 60vh;
+  }
+
+  .banner_img {
+    height: 60vh;
+  }
+
+  .oferta_info {
+    align-content: center;
+    margin: auto;
+    width: 40%;
+
+  }
+
+  .oferta_banner {
+    padding-left: 2%;
+    font-size: 2.5rem;
+    margin-bottom: 5%;
+  }
+
+  .oferta_producto {
+    font-size: 2rem;
+    margin-bottom: 5%;
+    padding-left: 2%;
+  }
+
+  .bton_oferta {
+    font-size: 1.3rem;
+    margin-bottom: 5%;
+    margin-left: 3%;
+  }
+}

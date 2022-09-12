@@ -1,0 +1,74 @@
+/*Pagina de estilo pertenece a: formulario-login.html*/
+/*donde esta el formulario de login*/
+
+#seccion_form_login {
+  background-color: rgba(240, 248, 255, 0.752);
+}
+
+#contenedor__form__login {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+  margin: auto;
+}
+
+#form__login {
+  background: var(--color-formulario);
+  display: flex;
+  flex-direction: column;
+  border-radius: 4%;
+  margin: auto;
+}
+
+.controles {
+  display: block;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  margin: auto;
+  outline: none;
+  padding: 10px 10px;
+  resize: none;
+  width: 80%;
+}
+
+.form_parrafo {
+  margin-top: 2.5%;
+  margin-left: 10%;
+}
+
+#caja_bton_login {
+  margin: auto;
+}
+
+/*telefonos*/
+@media only screen and (max-width: 600px) {
+  #contenedor__form__login {
+    width: 100%;
+  }
+
+  #form__login {
+    width: 90%;
+  }
+}
+
+/*landscape tablets, 768px and up */
+@media only screen and (min-width: 600px) {
+  #contenedor__form__login {
+    width: 100%;
+  }
+
+  #form__login {
+    width: 90%;
+  }
+}
+
+/* Extra large laptops and desktops, 1200px and up */
+@media only screen and (min-width: 992px) {
+  #contenedor__form__login {
+    width: 90%;
+  }
+
+  #form__login {
+    width: 70%;
+  }
+}
