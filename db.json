@@ -1,0 +1,44 @@
+{
+  "perfil": [
+    {
+      "email": "katy@gmail.com",
+      "password": "1234",
+      "id": 1
+    },
+    {
+      "email": "katherinelinet97@gmail.com",
+      "password": "1234",
+      "id": "8fc07ddd-2886-4cdd-afa5-5fb4c0180397"
+    },
+    {
+      "email": "katerine3097@outlook.com",
+      "password": "96885",
+      "id": "a34692ba-cecf-482f-b72f-a2b7cabbd42f"
+    },
+    {
+      "email": "katherinelinet97@gmail.com",
+      "password": "8574",
+      "id": "799df8a7-c145-4bdd-b418-9f7e2758539b"
+    },
+    {
+      "email": "nelylopez0811@gmail.com",
+      "password": "9685",
+      "id": "7f0355ed-402f-40db-afda-b7fcf44916ee"
+    },
+    {
+      "email": "katerine3097@outlook.com",
+      "password": "9685",
+      "id": "dccea01e-47f7-4f36-8690-a2654251db89"
+    },
+    {
+      "email": "katherinelinet97@gmail.com",
+      "password": "123456",
+      "id": "f1a6e91c-845a-4807-aa78-71cb2a289f94"
+    },
+    {
+      "email": "katerine3097@outlook.com",
+      "password": "741741",
+      "id": "4f175a76-5732-4bd7-aef4-41dfe75bd7fc"
+    }
+  ]
+}

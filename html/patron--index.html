@@ -1,4 +1,5 @@
-<!-- su hoja de estilo esta dentro de la carpeta formulario y se llama: login-form.css -->
+<!-- su hoja de estilo son: index-style.css, form-contactos.css y footer.css-->
+
 <!DOCTYPE html>
 <html lang="es">
 
@@ -6,8 +7,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/recetear navegadores/normalize.css">
-  <link rel="stylesheet" href="css/recetear navegadores/reset.css">
+  <link rel="stylesheet" href="./css/recetear-navegadores/normalize.css">
+  <link rel="stylesheet" href="./css/recetear-navegadores/reset.css">
   <link rel="stylesheet" href="css/index-style.css">
   <link rel="stylesheet" href="formularios/form-contactos.css">
   <link rel="stylesheet" href="formularios/login-form.css">
@@ -22,41 +23,17 @@
   <section class="menu">
     <header class="menu__header">
       <div class="ima-pequeña">
-        <a href="index-principal.html"><img class="ima" src="imagenes/logo-principal.png "
-            alt="Imagen del Logo 'DVET' "></a>
+        <img class="ima" src="imagenes/logo-principal.png" alt="Imagen del Logo 'DVET' ">
       </div>
     </header>
     <div class="buscar">
-      <input type="text" class="buscar_texto" placeholder="¿Qué deseas buscar?" required><button class="boton"><img
+      <input type="search" class="buscar_texto" placeholder="¿Qué deseas buscar?" required><button class="boton"><img
           id="img-buscar" src="imagenes/buscar.png" alt="Imagen de buscar"></button>
-      <!-- <span class="bton_login"><a href="#" Target="_blank" rel="noopener noreferrer"><button
-            class="boton-login-diseno">Login</button></a></span> -->
+      <span class="bton_login"><a href="formulario-login.html" Target="_blank" rel="noopener noreferrer"><button
+            class="boton-login-diseno">Login</button></a></span>
     </div>
-
   </section>
   <main>
-
-    <!-- Seccione del Login -->
-    <section id="seccion_form_login">
-      <div id="contenedor__form__login">
-        <form id="form__login" name="form">
-          <h3 class="formcontato__title">Iniciar Sesión</h3>
-
-          <label for="correoelectronico">Correo Electrónico</label>
-          <input class="controles" type="email" name="email" placeholder="E-mail" autocomplete required>
-
-          <label for="nombreapellido">Contraseña</label>
-          <input class="controles" type="password" name="contrasena" placeholder="Escriba su contraseña" autocomplete required pattern="^(?=,*[a-z])(?=.*[A-Z])(?=,*[0-9])(?!.*[ !@#$%^&*_=+-]).{6,12}$" title="Al menos 6 caracteres, máximo 12, debe contener una letra minúscula, una letra mayúscula, un número y no puede contener caracteres especiales.">
-          <p class="form_parrafo"><a href="#">Olvidaste tu contraseña?</a></p>
-
-          <div id="caja_bton_login">
-            <a href="#" alt="" Target="_blank" rel="noopener noreferrer"><button type="submit" value="Entrar"
-                class="formcontato__boton">Entrar</button>
-          </div>
-
-        </form>
-      </div>
-    </section>
 
     <!-- Sección del formulario/ item/ logo-->
     <section class="contenedor_menu">
@@ -86,9 +63,10 @@
         <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"
           required></textarea>
 
-        <div id="caja_bton">
+        <div class="caja_bton">
           <a href="#" alt="" Target="_blank" rel="noopener noreferrer"><button type="submit" value="Enviar mensaje"
               class="formcontato__boton">Enviar mensaje</button>
+        </div>
       </form>
       </div>
       </div>

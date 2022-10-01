@@ -4,6 +4,7 @@
 #banner {
   display: flex;
   flex-direction: row-reverse;
+  background-color: rgb(216, 249, 177);
 }
 
 .banner_img {
@@ -12,14 +13,14 @@
 
 .bton_oferta {
   cursor: pointer;
-  background-color: rgba(237, 218, 109, 0.878);
+  background: var(--color-body);
   font-weight: bold;
   height: 2.5rem;
   width: 11rem;
 }
 
 .bton_oferta:hover {
-  background-color: rgba(16, 138, 182, 0.51);
+  background-color: rgba(16, 138, 182, 0.772);
   font-size: 21px;
   transform: scale(1.1);
   width: 12rem;

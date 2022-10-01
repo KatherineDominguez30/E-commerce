@@ -1,4 +1,4 @@
-<!-- su hoja de estilos son: index-principal.css y index-principal-servicios -->
+<!-- su hoja de estilos son: index-principal.css y index-productos.css -->
 
 <!DOCTYPE html>
 <html lang="es">
@@ -7,17 +7,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/recetear navegadores/normalize.css">
-  <link rel="stylesheet" href="css/recetear navegadores/reset.css">
-  <link rel="stylesheet" href="css/index-style.css">
-  <link rel="stylesheet" href="formularios/form-contactos.css">
-  <link rel="stylesheet" href="formularios/login-form.css">
-  <link rel="stylesheet" href="formularios/productos-style-form.css">
-  <link rel="stylesheet" href="css/index-principal.css">
-  <link rel="stylesheet" href="css/index-principal-servicios.css">
-  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="../css/recetear-navegadores/normalize.css">
+  <link rel="stylesheet" href="../css/recetear-navegadores/reset.css">
+  <link rel="stylesheet" href="../css/index-style.css">
+  <link rel="stylesheet" href="../formularios/form-contactos.css">
+  <link rel="stylesheet" href="../formularios/login-form.css">
+  <link rel="stylesheet" href="../formularios/productos-style-form.css">
+  <link rel="stylesheet" href="../css/index-principal.css">
+  <link rel="stylesheet" href="../css/index-principal-servicios.css">
+  <link rel="stylesheet" href="../css/index-productos.css">
+  <link rel="stylesheet" href="../css/footer.css">
   <title>DVET</title>
-  <link rel="icon" type="icon/png" href="imagenes/logo-principal.ico">
+  <link rel="icon" type="icon/png" href="../imagenes/logo-principal.ico">
 </head>
 
 <body>
@@ -25,107 +26,31 @@
   <section class="menu">
     <header class="menu__header">
       <div class="ima-pequeña">
-        <img class="ima" src="imagenes/logo-principal.png" alt="Imagen del Logo 'DVET' ">
+        <a href="./index-principal.html"><img class="ima" src="../imagenes/logo-principal.png"
+            alt="Imagen del Logo 'DVET' "></a>
       </div>
     </header>
     <div class="buscar">
       <input type="search" class="buscar_texto" placeholder="¿Qué deseas buscar?" required><button class="boton"><img
-          id="img-buscar" src="imagenes/buscar.png" alt="Imagen de buscar"></button>
-      <span class="bton_login"><a href="formulario-login.html" rel="noopener noreferrer"><button
+          id="img-buscar" src="../imagenes/buscar.png" alt="Imagen de buscar"></button>
+      <span class="bton_login"><a href="./formulario-login.html" rel="noopener noreferrer"><button
             class="boton-login-diseno">Login</button></a></span>
     </div>
   </section>
-
-  <!-- Sección del Banner  -->
-  <section id="banner">
-    <div class="banner_principal">
-      <img class="banner_img" src="imagenes/banner.jpg">
-    </div>
-    <div class="oferta_info">
-      <h1 class="oferta_banner">Aprovecha las mejores ofertas que tenemos para tus mascota</h1>
-      <p class="oferta_producto">Productos seleccionados con 33% de descuento</p>
-      <a href="index-productos.html" rel="noopener noreferrer"><button class="bton_oferta" type="submit"
-          value="Ver productos" class="formcontato__boton">Ver productos</button></a>
-    </div>
-  </section>
   <main>
-
-    <!-- Sección de los servicios ofrecidos  -->
-    <section id="servicios">
-      <h3 class="servicios__title">Servicios ofrecidos</h3>
-      <div class="servicios__line">
-
-        <div class="servicios__box">
-          <ul>
-            <li class="servicios__img"><img src="imagenes/servicios/hotel.png" alt=""></li>
-            <li class="servicios__name">Hotel para Mascotas</li>
-            <p class="servicios__descripcion">Le ofrecemos a tu mascota una estadía muy especial, no solo la cuidamos,
-              la hacemos sentir como en casa.</p>
-            <!-- <p class="producto-precio">$ 10.00</p> -->
-            <li class="servicios__list__item"><a href="#">Ver mas</a></li>
-          </ul>
-        </div>
-
-        <div class="servicios__box">
-          <ul>
-            <li class="servicios__img"><img src="imagenes/servicios/laboratorio.png" alt="Imagen de CSS"></li>
-            <li class="servicios__name">Laboratorio</li>
-            <p class="servicios__descripcion">Ofrecemos todo tipo de analítica rápida que nos permita diagnosticar
-              efectivamente la salud de tu mascota.</p>
-            <li class="servicios__list__item"><a href="#">Ver mas</a></li>
-          </ul>
-        </div>
-
-        <div class="servicios__box">
-          <ul>
-            <li class="servicios__img"><img src="imagenes/servicios/vacunacion.png" alt="">
-            </li>
-            <li class="servicios__name">Vacunas</li>
-            <p class="servicios__descripcion">Protección contra Enfermedades. Te brindamos el más completo esquema de
-              vacunación para tu mascota.</p>
-            <li class="servicios__list__item"><a href="#">Ver mas</a></li>
-          </ul>
-        </div>
-
-        <div class="servicios__box">
-          <ul>
-            <li class="servicios__img"><img src="imagenes/servicios/higiene.png" alt=""></li>
-            <li class="servicios__name">Consulta Veterinaria</li>
-            <p class="servicios__descripcion">Contamos con personal médico al servicio de la salud de tu mascota.</p>
-            <li class="servicios__list__item"><a href="#">Ver mas</a></li>
-          </ul>
-        </div>
-
-        <div class="servicios__box">
-          <ul>
-            <li class="servicios__img"><img src="imagenes/servicios/spa.png"></li>
-            <li class="servicios__name">Spa para Mascotas</li>
-            <p class="servicios__descripcion">Sabemos que la atención de tu mascota y su higiene son muy importantes
-              para ti, por eso hemos creado este servicio.</p>
-            <li class="servicios__list__item"><a href="#">Ver mas</a></li>
-          </ul>
-        </div>
-
-        <div class="servicios__box">
-          <ul>
-            <li class="servicios__img"> <img src="imagenes/servicios/Corte.png" alt=""> </li>
-            <li class="servicios__name">Grooming</li>
-            <p class="servicios__descripcion">Brindamos un especial cuidado al pelo y a la piel de tu mascota, puedes
-              confiarnos el cuidado completo de tu mascota.</p>
-            <li class="servicios__list__item"><a href="#">Ver mas</a></li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
     <!-- Sección de los productos de ventas  -->
     <section id="productos">
-      <h3 class="productos__title">Productos</h3>
+      <div id="productos-ventas">
+        <h3 class="productos__title">Todos los productos</h3>
+        <span class="bton_productos"><a href="formulario-productos.html"
+            rel="noopener noreferrer"><button class="boton-agregar-producto">Agregar producto</button></a>
+        </span>
+      </div>
       <div class="productos__line">
 
         <div class="productos__box">
           <ul>
-            <li class="productos__img"><img src="imagenes/productos/articulos/alimento.png">
+            <li class="productos__img"><img src="../imagenes/productos/articulos/alimento.png">
             <li class="productos__name">Alimento FruitBlend Flavor</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -141,7 +66,7 @@ Blend Made in USA for Cockatiels, Quakers, Lovebirds, Small Conures</p> -->
 
         <div class="productos__box">
           <ul>
-            <li class="productos__img"><img src="imagenes/productos/articulos/alimento1.png" alt="Imagen de CSS"></li>
+            <li class="productos__img"><img src="../imagenes/productos/articulos/alimento1.png" alt="Imagen de CSS"></li>
             <li class="productos__name">Semillas de Girasol </li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -156,7 +81,7 @@ Blend Made in USA for Cockatiels, Quakers, Lovebirds, Small Conures</p> -->
 
         <div class="productos__box">
           <ul>
-            <li class="productos__img"><img src="imagenes/productos/articulos/purina.png" alt="Imagen de CSS"></li>
+            <li class="productos__img"><img src="../imagenes/productos/articulos/purina.png" alt="Imagen de CSS"></li>
             <li class="productos__name">Purina PROPLAN </li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -171,7 +96,7 @@ Blend Made in USA for Cockatiels, Quakers, Lovebirds, Small Conures</p> -->
 
         <div class="productos__box">
           <ul>
-            <li class="productos__img"><img src="imagenes/productos/articulos/purina1.png">
+            <li class="productos__img"><img src="../imagenes/productos/articulos/purina1.png">
             </li>
             <li class="productos__name">Purina Dog Chow</li>
             <div class="descuento">
@@ -187,7 +112,7 @@ Blend Made in USA for Cockatiels, Quakers, Lovebirds, Small Conures</p> -->
 
         <div class="productos__box">
           <ul>
-            <li class="productos__img"><img src="imagenes/productos/articulos/purina2.png" alt=""></li>
+            <li class="productos__img"><img src="../imagenes/productos/articulos/purina2.png" alt=""></li>
             <li class="productos__name">Purina Pro Plan Indoor</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -202,7 +127,7 @@ Blend Made in USA for Cockatiels, Quakers, Lovebirds, Small Conures</p> -->
 
         <div class="productos__box">
           <ul>
-            <li class="productos__img"><img src="imagenes/productos/articulos/purina3.png">
+            <li class="productos__img"><img src="../imagenes/productos/articulos/purina3.png">
             <li class="productos__name">Purina Pro Plan Urinary</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -217,7 +142,7 @@ Blend Made in USA for Cockatiels, Quakers, Lovebirds, Small Conures</p> -->
 
         <div class="productos__box">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/articulos/cepillo.png" alt=""> </li>
+            <li class="productos__img"> <img src="../imagenes/productos/articulos/cepillo.png" alt=""> </li>
             <li class="productos__name">Cepillo Ergonómico</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -232,7 +157,7 @@ Blend Made in USA for Cockatiels, Quakers, Lovebirds, Small Conures</p> -->
 
         <div class="productos__box">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/articulos/cepillo-boca.png" alt=""> </li>
+            <li class="productos__img"> <img src="../imagenes/productos/articulos/cepillo-boca.png" alt=""> </li>
             <li class="productos__name">Cepillo de dientes</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -247,7 +172,7 @@ Blend Made in USA for Cockatiels, Quakers, Lovebirds, Small Conures</p> -->
 
         <div class="productos__box">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/articulos/corta-unas.png" alt=""> </li>
+            <li class="productos__img"> <img src="../imagenes/productos/articulos/corta-unas.png" alt=""> </li>
             <li class="productos__name">Cortaúñas para perros y gatos</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -262,7 +187,7 @@ Blend Made in USA for Cockatiels, Quakers, Lovebirds, Small Conures</p> -->
 
         <div class="productos__box">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/articulos/pala.png" alt=""> </li>
+            <li class="productos__img"> <img src="../imagenes/productos/articulos/pala.png" alt=""> </li>
             <li class="productos__name">Pala para deshechos</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -276,7 +201,7 @@ Blend Made in USA for Cockatiels, Quakers, Lovebirds, Small Conures</p> -->
         </div>
         <div class="productos__box">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/articulos/pelota.png" alt=""> </li>
+            <li class="productos__img"> <img src="../imagenes/productos/articulos/pelota.png" alt=""> </li>
             <li class="productos__name">Juguete perfumado para perro</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -290,7 +215,7 @@ Blend Made in USA for Cockatiels, Quakers, Lovebirds, Small Conures</p> -->
         </div>
         <div class="productos__box">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/articulos/secador.png" alt=""> </li>
+            <li class="productos__img"> <img src="../imagenes/productos/articulos/secador.png" alt=""> </li>
             <li class="productos__name">Secador para perros y gatos</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -304,7 +229,7 @@ Blend Made in USA for Cockatiels, Quakers, Lovebirds, Small Conures</p> -->
         </div>
         <div class="productos__box">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/articulos/tijera.png" alt=""> </li>
+            <li class="productos__img"> <img src="../imagenes/productos/articulos/tijera.png" alt=""> </li>
             <li class="productos__name">Tijeras rectas</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -318,7 +243,7 @@ Blend Made in USA for Cockatiels, Quakers, Lovebirds, Small Conures</p> -->
         </div>
         <div class="productos__box">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/articulos/vacunas.png" alt=""> </li>
+            <li class="productos__img"> <img src="../imagenes/productos/articulos/vacunas.png" alt=""> </li>
             <li class="productos__name">Vacunas</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -334,7 +259,7 @@ para el cuidado completo de tu mascota.</p> -->
 
         <div class="productos__box">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/articulos/registro_vac.png"></li>
+            <li class="productos__img"> <img src="../imagenes/productos/articulos/registro_vac.png"></li>
             <li class="productos__name">Tarjetas de vacuna</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -347,15 +272,10 @@ para el cuidado completo de tu mascota.</p> -->
           </ul>
         </div>
       </div>
-    </section>
-
-    <!-- Sección de los productos de venta gatos -->
-    <section id="productos">
-      <h3 class="productos__title">Productos para gatos</h3>
       <div class="productos__line">
         <div class="productos__box__gato">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/gato/jaula.png"></li>
+            <li class="productos__img"> <img src="../imagenes/productos/gato/jaula.png"></li>
             <li class="productos__name">Jaula para gatos</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -370,7 +290,7 @@ para el cuidado completo de tu mascota.</p> -->
 
         <div class="productos__box__gato">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/gato/jaula1.png"></li>
+            <li class="productos__img"> <img src="../imagenes/productos/gato/jaula1.png"></li>
             <li class="productos__name">Jaula portatil</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -385,7 +305,7 @@ para el cuidado completo de tu mascota.</p> -->
 
         <div class="productos__box__gato">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/gato/guantes.png"></li>
+            <li class="productos__img"> <img src="../imagenes/productos/gato/guantes.png"></li>
             <li class="productos__name">Guantes quita pelos</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -400,7 +320,7 @@ para el cuidado completo de tu mascota.</p> -->
 
         <div class="productos__box__gato">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/gato/casa.png"></li>
+            <li class="productos__img"> <img src="../imagenes/productos/gato/casa.png"></li>
             <li class="productos__name">Casa para gatos</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -415,7 +335,7 @@ para el cuidado completo de tu mascota.</p> -->
 
         <div class="productos__box__gato">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/gato/casa1.png"></li>
+            <li class="productos__img"> <img src="../imagenes/productos/gato/casa1.png"></li>
             <li class="productos__name">Casa para gatos</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -430,7 +350,7 @@ para el cuidado completo de tu mascota.</p> -->
 
         <div class="productos__box__gato">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/gato/cama1.png"></li>
+            <li class="productos__img"> <img src="../imagenes/productos/gato/cama1.png"></li>
             <li class="productos__name">Cama para gatos</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -445,7 +365,7 @@ para el cuidado completo de tu mascota.</p> -->
 
         <div class="productos__box__gato">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/gato/cama2.png"></li>
+            <li class="productos__img"> <img src="../imagenes/productos/gato/cama2.png"></li>
             <li class="productos__name">Cama para gatos</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -460,7 +380,7 @@ para el cuidado completo de tu mascota.</p> -->
 
         <div class="productos__box__gato">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/gato/caja.png"></li>
+            <li class="productos__img"> <img src="../imagenes/productos/gato/caja.png"></li>
             <li class="productos__name">Caja de arena</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -475,7 +395,7 @@ para el cuidado completo de tu mascota.</p> -->
 
         <div class="productos__box__gato">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/gato/rascador.png"></li>
+            <li class="productos__img"> <img src="../imagenes/productos/gato/rascador.png"></li>
             <li class="productos__name">Rascador de cartón</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -490,7 +410,7 @@ para el cuidado completo de tu mascota.</p> -->
 
         <div class="productos__box__gato">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/gato/rascador1.png"></li>
+            <li class="productos__img"> <img src="../imagenes/productos/gato/rascador1.png"></li>
             <li class="productos__name">Rascador</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -505,7 +425,7 @@ para el cuidado completo de tu mascota.</p> -->
 
         <div class="productos__box__gato">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/gato/ropa.png"></li>
+            <li class="productos__img"> <img src="../imagenes/productos/gato/ropa.png"></li>
             <li class="productos__name">Ropa para gatos</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -520,7 +440,7 @@ para el cuidado completo de tu mascota.</p> -->
 
         <div class="productos__box__gato">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/gato/juego2.png"></li>
+            <li class="productos__img"> <img src="../imagenes/productos/gato/juego2.png"></li>
             <li class="productos__name">Ratón eléctrico</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -535,7 +455,7 @@ para el cuidado completo de tu mascota.</p> -->
 
         <div class="productos__box__gato">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/gato/juegos1.png"></li>
+            <li class="productos__img"> <img src="../imagenes/productos/gato/juegos1.png"></li>
             <li class="productos__name">Juego de bolas</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -550,7 +470,7 @@ para el cuidado completo de tu mascota.</p> -->
 
         <div class="productos__box__gato">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/gato/juguete_gato.png"></li>
+            <li class="productos__img"> <img src="../imagenes/productos/gato/juguete_gato.png"></li>
             <li class="productos__name">Juego movil</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -564,15 +484,11 @@ para el cuidado completo de tu mascota.</p> -->
         </div>
 
       </div>
-    </section>
 
-    <!-- Sección de los productos de venta Perros -->
-    <section id="productos">
-      <h3 class="productos__title">Productos para perros</h3>
       <div class="productos__line">
         <div class="productos__box__perro">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/perro/arnes.png"></li>
+            <li class="productos__img"> <img src="../imagenes/productos/perro/arnes.png"></li>
             <li class="productos__name">Arnés Chaleco</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -587,7 +503,7 @@ para el cuidado completo de tu mascota.</p> -->
         </div>
         <div class="productos__box__perro">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/perro/cama-per 1.png"></li>
+            <li class="productos__img"> <img src="../imagenes/productos/perro/cama-per 1.png"></li>
             <li class="productos__name">Cama para perros</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -601,7 +517,7 @@ para el cuidado completo de tu mascota.</p> -->
         </div>
         <div class="productos__box__perro">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/perro/cama-perro 1.png"></li>
+            <li class="productos__img"> <img src="../imagenes/productos/perro/cama-perro 1.png"></li>
             <li class="productos__name">Cama para perros</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -615,7 +531,7 @@ para el cuidado completo de tu mascota.</p> -->
         </div>
         <div class="productos__box__perro">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/perro/casa.png"></li>
+            <li class="productos__img"> <img src="../imagenes/productos/perro/casa.png"></li>
             <li class="productos__name">Casa para perros</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -646,7 +562,7 @@ para el cuidado completo de tu mascota.</p> -->
         </div>
         <div class="productos__box__perro">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/perro/casa1.png"></li>
+            <li class="productos__img"> <img src="../imagenes/productos/perro/casa1.png"></li>
             <li class="productos__name">Casa para perros</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -668,7 +584,7 @@ para el cuidado completo de tu mascota.</p> -->
         </div>
         <div class="productos__box__perro">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/perro/dispensador.png"></li>
+            <li class="productos__img"> <img src="../imagenes/productos/perro/dispensador.png"></li>
             <li class="productos__name">Alimentador inalámbrico</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -683,7 +599,7 @@ para el cuidado completo de tu mascota.</p> -->
         </div>
         <div class="productos__box__perro">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/perro/dispensador1.png"></li>
+            <li class="productos__img"> <img src="../imagenes/productos/perro/dispensador1.png"></li>
             <li class="productos__name">Alimentador inalámbrico</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -706,7 +622,7 @@ para el cuidado completo de tu mascota.</p> -->
         </div>
         <div class="productos__box__perro">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/perro/dispensador-agua.png"></li>
+            <li class="productos__img"> <img src="../imagenes/productos/perro/dispensador-agua.png"></li>
             <li class="productos__name">Alimentador inalámbrico</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -730,7 +646,7 @@ para el cuidado completo de tu mascota.</p> -->
         </div>
         <div class="productos__box__perro">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/perro/hueso.png"></li>
+            <li class="productos__img"> <img src="../imagenes/productos/perro/hueso.png"></li>
             <li class="productos__name">Hueso de cuero para perros</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -751,7 +667,7 @@ para el cuidado completo de tu mascota.</p> -->
         </div>
         <div class="productos__box__perro">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/perro/jaula.png"></li>
+            <li class="productos__img"> <img src="../imagenes/productos/perro/jaula.png"></li>
             <li class="productos__name">Jaula para perros
             </li>
             <div class="descuento">
@@ -766,7 +682,7 @@ para el cuidado completo de tu mascota.</p> -->
         </div>
         <div class="productos__box__perro">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/perro/jaula1.png"></li>
+            <li class="productos__img"> <img src="../imagenes/productos/perro/jaula1.png"></li>
             <li class="productos__name">Jaula para perros</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -780,7 +696,7 @@ para el cuidado completo de tu mascota.</p> -->
         </div>
         <div class="productos__box__perro">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/perro/juego1.png"></li>
+            <li class="productos__img"> <img src="../imagenes/productos/perro/juego1.png"></li>
             <li class="productos__name">Juego para mascotas parlantes</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -806,7 +722,7 @@ para el cuidado completo de tu mascota.</p> -->
         </div>
         <div class="productos__box__perro">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/perro/juego2.png"></li>
+            <li class="productos__img"> <img src="../imagenes/productos/perro/juego2.png"></li>
             <li class="productos__name">Juguetes de cuerda</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -827,7 +743,7 @@ para el cuidado completo de tu mascota.</p> -->
         </div>
         <div class="productos__box__perro">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/perro/juego3.png"></li>
+            <li class="productos__img"> <img src="../imagenes/productos/perro/juego3.png"></li>
             <li class="productos__name">Entrenamiento para perros</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -854,7 +770,7 @@ para el cuidado completo de tu mascota.</p> -->
         </div>
         <div class="productos__box__perro">
           <ul>
-            <li class="productos__img"> <img src="imagenes/productos/perro/ropa.png"></li>
+            <li class="productos__img"> <img src="../imagenes/productos/perro/ropa.png"></li>
             <li class="productos__name">Juego de ropa perros</li>
             <div class="descuento">
               <p class="productos-porcentaje">-33%</p>
@@ -879,7 +795,7 @@ para el cuidado completo de tu mascota.</p> -->
     <section class="contenedor_menu">
       <div class="menu_navegador">
         <div class="img-nav">
-          <img class="ima-pequeña" src="imagenes/logo-principal.png" alt="Imagen del Logo 'DVET' ">
+          <img class="ima-pequeña" src="../imagenes/logo-principal.png" alt="Imagen del Logo 'DVET' ">
         </div>
         <nav>
           <ul class="menu__list">
@@ -893,21 +809,21 @@ para el cuidado completo de tu mascota.</p> -->
         </nav>
       </div>
 
-      <form class="formcontato__form" name="form">
+      <form class="formcontato__form" name="form" id="form_contato">
         <h3 class="formcontato__title">Hable con nosotros</h3>
 
         <label for="nombreapellido">Nombre</label>
-        <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre" autocomplete required>
+        <input class="formcontato__input" id="formcontato__name" type="text" name="nombre" placeholder="Nombre" autocomplete>
 
         <label for="mensaje">Mensaje</label>
         <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"
-          required></textarea>
+          ></textarea>
 
         <div class="caja_bton">
           <a href="#" alt="" Target="_blank" rel="noopener noreferrer"><button type="submit" value="Enviar mensaje"
               class="formcontato__boton">Enviar mensaje</button>
         </div>
-      </form>
+      </form> 
       </div>
       </div>
     </section>

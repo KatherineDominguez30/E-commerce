@@ -1,8 +1,8 @@
 :root {
   /* --color-body: rgb(242, 235, 242); */
-  --color-body: rgba(237, 218, 109, 0.878);
+   --color-body: #c9dff5;
   --color-centro: rgba(255, 255, 255, 0.662);
-  --color-formulario: rgba(61, 141, 170, 0.205);
+  /*--color-formulario: rgba(61, 141, 170, 0.205); */
 }
 
 * {
@@ -74,7 +74,7 @@
 /*diseno del boton de login*/
 .boton-login-diseno {
   cursor: pointer;
-  background-color: rgba(106, 132, 196, 0.804);
+  background-color: #5563d1;
   border: none;
   border-radius: 15px;
   font-size: 1.6rem;
